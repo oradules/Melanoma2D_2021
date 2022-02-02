@@ -149,11 +149,8 @@ for i = 1:Nm
 end
 Cnd = zeros(1,1,3); Cnd(1,1,:) = sum(Cols(1:Nm,:),1);
 ss= sum(Cols(1:Nm,:),1);
-for i=1:length(ss)
-if ss(i) > 0
-CT(:,:,i) = CT(:,:,i)/ss(i);
-end
-end
+%ind = find(Cnd>0)
+CT(:,:,ind) = CT(:,:,ind)./Cnd(1,1,ind);
 %CT(Cnd>0) = CT(Cnd>0)./Cnd(Cnd>0);
 if svfg; F = figure('visible','off'); clf; hold on; set(gca,'FontSize',16)
 else; figure(5); clf; hold on; set(gca,'FontSize',16)

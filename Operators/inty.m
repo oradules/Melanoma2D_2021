@@ -1,3 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Code written by Arran Hodgkinson, University of Exeter, January 2022
+%%%%% Module takes as inputs a 4-dimensional distribution and returns the
+%%%%% integral of this distribution through its structural (3rd & 4th)
+%%%%% dimensions
+%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function out = inty(in)
 
 global dy

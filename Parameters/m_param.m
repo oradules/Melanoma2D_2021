@@ -1,3 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Code written by Arran Hodgkinson, University of Exeter, January 2022
+%%%%% Module generates a set of parameters for the simulation of the
+%%%%% derivative of the chemical species distribution w.r.t. time
+%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [Dm,phi_m,del_m] = m_param0
 
 %% Spatial Diffusion Parameters

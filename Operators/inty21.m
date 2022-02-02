@@ -1,3 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Code written by Arran Hodgkinson, University of Exeter, January 2022
+%%%%% Module takes as inputs a 2-dimensional distribution and returns the
+%%%%% integral of this distribution through its 2nd dimension
+%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function out = inty21(in)
 
 global dy

@@ -1,3 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Code written by Arran Hodgkinson, University of Exeter, January 2022
+%%%%% Module takes as inputs the melanoma, ECNE, chemical molecule, and
+%%%%% drug distributions for the simulation of the derivative of the 
+%%%%% chemical molecule distribution w.r.t. time
+%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function out = partialm(c,v,m,p)
 
 [Dm,phi_m,del_m] = m_param;

@@ -1,3 +1,10 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Code written by Arran Hodgkinson, University of Exeter, January 2022
+%%%%% Module takes as inputs the gradient of a 4-dimensional distribution
+%%%%% and returns the derivative of this distribution through its
+%%%%% structural (3rd & 4th) dimensions, as a divergence
+%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function out = divy(in)
 
 global dy

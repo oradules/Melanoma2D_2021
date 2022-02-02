@@ -1,3 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Code written by Arran Hodgkinson, University of Exeter, January 2022
+%%%%% Module generates a set of parameters for the simulation of the
+%%%%% derivative of the melanoma cell distribution w.r.t. time
+%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [Dx,chi_m,chi_v,Dy,r_mu,mLin,Phi,cPreg,del_c,pDreg] = c_param1
 
 global Np y1 y2

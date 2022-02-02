@@ -1,3 +1,11 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Code written by Arran Hodgkinson, University of Exeter, January 2022
+%%%%% Module generates initial conditions for the melanoma treatment
+%%%%% simulator, with a gaussian probability distribution for the cancer
+%%%%% cell population and an arbitrary form chosen for the extra-cellular
+%%%%% nutritional environment (ECNE), v. Chemical and drug species are 0
+%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 function [c,v,m,p] = init()
 
 global x y1 y2

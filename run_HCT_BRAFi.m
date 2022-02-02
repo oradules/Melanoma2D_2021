@@ -1,3 +1,11 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Code written by Arran Hodgkinson, University of Exeter, January 2022
+%%%%% Code simulates the effect of continuous BRAF inhibitor (BRAFi) 
+%%%%% treatment and a hypothetical cancer treatment (HCT) on a primary
+%%%%% derived xenograft (PDX) melanoma cell population, with treatment
+%%%%% intervals defined by ptt{1} and ptt{2}, respectively. Results are
+%%%%% saved as images in the 'images' folder
+%%%%% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 global Np dt x y y1 y2 dx dy
 
@@ -7,7 +15,8 @@ path(path,'Operators');
 path(path,'Parameters');
 
 tic;
-svpth = [pwd,'/images/'];
+svpth = 'images/';
+mkdir(svpth)
 
 dt = .2; Tmx = 360; t = 0:dt:Tmx;
 Np = 2; ptt = cell(Np,1);
